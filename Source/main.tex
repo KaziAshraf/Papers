@@ -1,0 +1,87 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Kazi Ashraf}{Moinuddin}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{5/A, BUET Teacher's Quarter}{Dhaka-1000}{Bangladesh}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+88-0168-343-9643}                   % optional, remove / comment the line if not wanted
+                      % optional, remove / comment the line if not wanted
+\email{ashrafmoinuddin22@gmail.com}                               % optional, remove / comment the line if not wanted
+                      % optional, remove / comment the line if not wanted
+                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Dr. Don Gruenbacher}{Department Head, ECE Department\\College of Engineering\\Kansas State University}
+\date{February 02, 2018}
+\opening{Dear Sir,}
+\closing{With Regards,}
+         % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\justify
+I am writing to you as a potential Masters candidate in your research group for spring 2018. I graduated in 2016, from Military Institute of Science and Technology (MIST), Bangladesh and hold a Bachelors degree in Computer Science and Engineering (CSE).
+
+During my four years in the undergraduate program, I was able to acquire the knowledge required to be able to work in the Computer or Software Engineering field. I was involved in multiple projects during my bachelor studies which helped me develop project management and planning skills. My first project was to develop a Desktop and an Android application for storing and viewing contact information of all the faculties and staffs of our university.  In my 6th semester, I developed an application for managing car rents, sales and services as part of my Software Engineering and Information System Design project. I also developed numerous simulation software while I was taking the Simulation and Modeling course. These projects helped me to develop into a very adapt software developer. I also excelled in various courses most notably Artificial Intelligence, Structured Programming Language, Object Oriented Programming, DBMS, Computer Architecture and Graph Theory. My undergraduate thesis task was to evaluate time complexity for D-ary Heap Sort for large number of elements. As part of my thesis work, I wrote programs in C to simulate number of comparison and time complexity for building D-ary Heap and sorting using D-ary Heap for large data sets. I also read various paper regarding D-ary Heap and other variants of Heap sort during my thesis work. My undergraduate thesis work had made me understand the process of conducting any research and the level of commitment needed to be a researcher in the Computer Science and Engineering field. 
+
+At the end of 6th semester, I joined Robi Axiata Limited as an intern. Robi Axiata Limited is the second largest mobile network operator in Bangladesh. While I was there, I had the experience of working in the Service Operation Center (SOC). I was able to complete every task that was assigned to me with such competence and professionalism that supervisor of our intern group Shafiul Alam commended me by declaring at the end of my internship that I was the most skillful and responsible individual of my group. This internship taught me about the right attitude needed for working in any organizations and gave me confidence in my ability to work as a competent and responsible individual.
+
+After my graduation, I joined the BUET-DPDC-SCADA Project as a Project Engineer. This project was supervised by my father Dr. Kazi Mujibur Rahman who is a Professor of Electrical and Electronics Engineering in Bangladesh University of Engineering and Technology (BUET). The goal of this project was to develop and deploy a SCADA system in the power distribution network of Dhaka Power Distribution Company (DPDC). In the development phase of this project, I worked mostly with Microsoft SQL Server database. My most notable works in this phase includes writing SQL procedures to shrink and take backup of certain databases automatically, partitioning large tables and add triggers in temporary tables to populate core tables whenever there is an update. I also contributed in developing and testing SCADA software for both RTU and Operator Terminals.  After the development and testing phase of this project, I was responsible for configuring all the RTUs before deployment and also took part in installation of this system in various substations of DPDC. During trial runs of this SCADA system, I visited all the substations along with engineers from DPDC to acquire information about the performance of the RTU software and also to train Operators of these substations to use and maintain this system.  I was able to discover several bugs in the RTU software during these visits and my discovery led to multiple modification in the RTU software. I acted as a specialist of this system during the later phase of this project and was also deployed as a trainer of this system in the BUET-DPDC SCADA training program. My final task of this project was to develop an application for viewing hourly power generation, demand and loadshed information and generate report using these data.
+
+\newpage
+
+I worked in the BUET-DPDC SCADA Project for almost one and half year (April 2016 to September 2017). My contribution in this project helped me earn endorsement of my skills and professionalism from my co-workers of this project and also from leading individuals of DPDC whom I have co-operated with in this project.
+
+After departing from this project on a high note, I carefully evaluated my career options and decided that my next challenge would be to acquire a Masters and PhD degree in the field of Computer Engineering. I came to this decision because by attending degree programs, I will be able to acquire in-depth knowledge of the Computer Engineering field and also be involved in research of latest technologies. I am applying to Kansas State University as it has very excellent research facilities and faculty members who are experienced and active researchers in the Computer Engineering field. I have the utmost confidence that I will be able to learn and work in my full capacity if given a chance to attend a Masters and then a PhD program in this university.  
+
+I am a big fan of the IoT technology. I am confident that this technology will revolutionize industries and even our day-to-day lives in near future. I have learned much about this technology by reading different studies published for this technology and recently I have started writing a paper about some possible approaches to upgrade the SCADA system that we integrated on DPDC into a Cloud-assisted IoT-based SCADA system. Beside working on this paper, I am also developing an application with my father for Home Automation. I am doing all this to prepare myself for attending a Graduate Program. My ultimate goal is to become an expert researcher and engineer who can contribute in the Smart Grid technology. I have set this goal because I have experience in developing applications for control systems in power infrastructures and I also have a good understanding of the IoT technology to be able to develop any application based on this technology for power infrastructures or the Smart Grid.   
+
+After searching for faculties who conducts research in the field of Smart Grid technology especially in designing and developing secure applications for Smart Grid, I was delighted to find you as you are an active and experienced researcher who work in the field relevant to my interest. I feel I will be able to excel in this field if you provide me with an opportunity to work with you in your research and also attend a Masters and then a PhD under your supervision. It will be my honor to work with a man of your stature and contribute in a technology that will revolutionize the power industry in near future.
+
+I would like to thank you in advance for your time and I hope to receive a reply from you.
+
+\vspace{8pt}
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
